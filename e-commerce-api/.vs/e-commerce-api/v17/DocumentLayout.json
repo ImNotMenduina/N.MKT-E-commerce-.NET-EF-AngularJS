@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Skin.cs",
+              "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Skin.cs",
+              "RelativeDocumentMoniker": "e-commerce-api\\Models\\Skin.cs",
+              "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Skin.cs",
+              "RelativeToolTip": "e-commerce-api\\Models\\Skin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:18:34.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Weapon.cs",
+              "RelativeDocumentMoniker": "e-commerce-api\\Models\\Weapon.cs",
+              "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Weapon.cs",
+              "RelativeToolTip": "e-commerce-api\\Models\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:16:05.728Z"
             }
           ]
         }
