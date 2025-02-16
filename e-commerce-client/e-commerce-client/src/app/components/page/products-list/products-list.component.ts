@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, Input, signal } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { Weapon } from '../../../models/weapon.models';
+import { WeaponService } from '../../../service/weapon.service';
 
 @Component({
   selector: 'app-products-list',
@@ -10,9 +11,8 @@ import { Weapon } from '../../../models/weapon.models';
   styleUrl: './products-list.component.scss'
 })
 export class ProductsListComponent {
-  constructor(private http: HttpClient) {
-    this.http = http;
-  }
+  constructor(private http: HttpClient, private weaponService: WeaponService) { }
+
   classAdd = Input('');
   weapons = signal<Weapon[]>([])
 
@@ -21,14 +21,11 @@ export class ProductsListComponent {
   }
 
   loadWeapons() {
-    let url = "https://localhost:7247/api/Weapons"
-    this.http.get<Weapon[]>(url).subscribe(
-      (data) => {
-        this.weapons.set(data)
-      },
-      (error) => {
-        console.error('Error fetching posts:', error);
+    this.weaponService.getWeapons().subscribe(
+      {
+        next: (weapons) => this.weapons.set(weapons),
+        error: (error) => console.error('Error:', error)
       }
-    );
+    )
   }
 }
