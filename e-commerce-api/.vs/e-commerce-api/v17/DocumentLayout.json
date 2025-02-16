@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\controllers\\weaponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Seeder.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Seeder.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Models\\Seeder.cs",
@@ -65,14 +65,14 @@
               "RelativeDocumentMoniker": "e-commerce-api\\Controllers\\WeaponsController.cs",
               "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Controllers\\WeaponsController.cs",
               "RelativeToolTip": "e-commerce-api\\Controllers\\WeaponsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wCIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T00:19:53.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\appsettings.json",
               "RelativeDocumentMoniker": "e-commerce-api\\appsettings.json",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Program.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Program.cs",
