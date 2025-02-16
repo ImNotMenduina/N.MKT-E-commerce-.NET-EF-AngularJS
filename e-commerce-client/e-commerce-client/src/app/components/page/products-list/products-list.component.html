@@ -1,0 +1,5 @@
+<div class="grid grid-cols-5 gap-4 justify-center content-center">
+    @for(item of weapons(); track item.uuid){
+        <app-card [weapon]="item"></app-card>
+    }
+</div>

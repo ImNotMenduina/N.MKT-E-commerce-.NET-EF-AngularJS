@@ -8,4 +8,5 @@ import { Component, input } from '@angular/core';
 })
 export class PrimaryButtonComponent {
   label = input("");
+  class = input("")
 }
