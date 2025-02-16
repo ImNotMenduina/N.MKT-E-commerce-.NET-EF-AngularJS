@@ -1,4 +1,5 @@
-import { Component, input } from '@angular/core';
+import { Component, inject, input, output } from '@angular/core';
+import { CartService } from '../../service/cart.service';
 
 @Component({
   selector: 'app-primary-button',
@@ -8,5 +9,6 @@ import { Component, input } from '@angular/core';
 })
 export class PrimaryButtonComponent {
   label = input("");
-  class = input("")
+  class = input("");
+  btnClicked = output();
 }

@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { PrimaryButtonComponent } from '../primary-button/primary-button.component';
+import { CartService } from '../../service/cart.service';
 
 @Component({
   selector: 'app-skin-card',
@@ -9,7 +10,5 @@ import { PrimaryButtonComponent } from '../primary-button/primary-button.compone
 })
 export class SkinCardComponent {
   @Input() skin: any;
-  ngOnInit() {
-    console.log(this.skin.displayName);
-  }
+  carService = inject(CartService);
 }
