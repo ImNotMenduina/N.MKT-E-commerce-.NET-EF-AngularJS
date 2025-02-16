@@ -11,8 +11,8 @@ using e_commerce_api.Models;
 namespace e_commerce_api.Migrations
 {
     [DbContext(typeof(ContextDb))]
-    [Migration("20250216002927_InitNightMarketDb")]
-    partial class InitNightMarketDb
+    [Migration("20250216034642_InitialNightMarketDb")]
+    partial class InitialNightMarketDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

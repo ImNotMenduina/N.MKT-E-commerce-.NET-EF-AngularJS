@@ -5,7 +5,7 @@
 namespace e_commerce_api.Migrations
 {
     /// <inheritdoc />
-    public partial class InitNightMarketDb : Migration
+    public partial class InitialNightMarketDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
