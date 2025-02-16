@@ -3,6 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+if (args.Length > 0 && args[0].ToLower() == "seed")
+{
+    await Seeder.WeaponDbInitializer();
+    return;
+}
+
 // Add services to the container.
 
 builder.Services.AddControllers();
