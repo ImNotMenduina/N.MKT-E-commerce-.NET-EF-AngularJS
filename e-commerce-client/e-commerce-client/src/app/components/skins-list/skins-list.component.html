@@ -1,0 +1,7 @@
+<div class="grid grid-cols-5 gap-4 justify-center content-center">
+    @for(item of skins(); track item.skinId){
+        @if (item.displayIcon && !item.displayName.includes("Standard") && !item.displayName.includes("Favorite")){
+            <app-skin-card [skin]="item"></app-skin-card>
+        }
+    }
+</div>

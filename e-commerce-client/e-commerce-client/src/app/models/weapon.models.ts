@@ -1,5 +1,5 @@
 export interface Weapon{
-    id: number;
+    weaponId: number;
     uuid: string;
     displayName: string;
     displayIcon: string;

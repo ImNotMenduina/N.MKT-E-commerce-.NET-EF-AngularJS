@@ -3,6 +3,6 @@
     <div class="bg-slate-300 w-full h-1/2 flex content-center justify-center py-5 px-2">
         <img src="{{weapon.displayIcon}}" alt="" class="object-contain h-full">
     </div>
-    <app-primary-button label="Skins" class="w-full"></app-primary-button>
+    <app-primary-button label="Skins" class="w-full" [routerLink]="['weapon', weapon.weaponId]" routerLinkActive="active-link"></app-primary-button>
 </div>
 
