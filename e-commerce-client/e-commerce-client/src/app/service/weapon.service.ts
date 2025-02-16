@@ -16,8 +16,8 @@ export class WeaponService {
     return this.http.get<Weapon[]>(url);
   }
 
-  getWeaponSkins(id: number): Observable<Skin[]> {
+  getWeaponSkins(id: number): Observable<Set<Skin>> {
     let url = `https://localhost:7247/api/Weapons/${id}`;
-    return this.http.get<Skin[]>(url);
+    return this.http.get<Set<Skin>>(url);
   }
 }

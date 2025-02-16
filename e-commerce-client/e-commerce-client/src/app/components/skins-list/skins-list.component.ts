@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { WeaponService } from '../../service/weapon.service';
 import { Skin } from '../../models/skin.models';
-import { CardComponent } from '../page/card/card.component';
 import { SkinCardComponent } from "../skin-card/skin-card.component";
 
 @Component({
@@ -14,7 +13,7 @@ import { SkinCardComponent } from "../skin-card/skin-card.component";
 export class SkinsListComponent {
   constructor(private route: ActivatedRoute, private weaponService: WeaponService) {} // Injeta ActivatedRoute
 
-  skins = signal<Skin[]>([])
+  skins = signal<Set<Skin>>(new Set())
   
   weaponId: number | null = null
   ngOnInit() {
@@ -27,7 +26,7 @@ export class SkinsListComponent {
 
   loadSkins(id: number) {
     this.weaponService.getWeaponSkins(id).subscribe({
-      next: (skins) => this.skins.set(skins),
+      next: (skins) => {this.skins.set(skins); console.log(skins)},
       error: (error) => console.error('Error:', error),
     })
   }

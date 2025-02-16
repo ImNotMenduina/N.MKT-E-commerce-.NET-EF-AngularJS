@@ -30,33 +30,48 @@ namespace e_commerce_api.Models
             HttpClient httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri("https://valorant-api.com/v1/");
 
+
             var response = await httpClient.GetAsync("weapons");
-            var json = await response.Content.ReadAsStringAsync();
-            var weapons = JsonConvert.DeserializeObject<Data<List<Weapon>>>(json);
 
-            if (weapons != null)
+            if (response.IsSuccessStatusCode)
             {
-                await context.Weapons.AddRangeAsync(weapons.data);
-                await context.SaveChangesAsync();
+                var json = await response.Content.ReadAsStringAsync();
+                var weapons = JsonConvert.DeserializeObject<Data<List<Weapon>>>(json);
 
-                foreach (var weapon in weapons.data)
+                if (weapons != null)
                 {
-                    response = await httpClient.GetAsync($"weapons/{weapon.Uuid}");
-                    json = await response.Content.ReadAsStringAsync();
-                    var skins = JsonConvert.DeserializeObject<Response>(json);
+                    await context.Weapons.AddRangeAsync(weapons.data);
+                    await context.SaveChangesAsync();
 
-                    if (skins != null) {
+                    foreach (var weapon in weapons.data)
+                    {
+                        response = await httpClient.GetAsync($"weapons/{weapon.Uuid}");
 
-                        foreach (var skin in skins.data.Skins)
+                        if (response.IsSuccessStatusCode)
                         {
-                            skin.WeaponId = weapon.WeaponId;
+                            json = await response.Content.ReadAsStringAsync();
+                            var skinsResponse = JsonConvert.DeserializeObject<Response>(json);
+
+                            if (skinsResponse != null && skinsResponse.data != null) 
+                            {
+                                List<Skin> skins = skinsResponse.data.Skins;
+
+                                foreach (var skin in skins)
+                                {
+                                    var skin_exists = await context.Skins.FirstOrDefaultAsync(x => x.DisplayName == skin.DisplayName);
+                                    if (skin_exists != null)
+                                        continue;
+
+                                    skin.WeaponId = weapon.WeaponId;
+                                }
+
+                                context.Skins.AddRange(skins);
+                            }
                         }
-
-                        context.AddRange(skins.data.Skins);
                     }
-                }
 
-                await context.SaveChangesAsync();
+                    await context.SaveChangesAsync();
+                }
             }
         }
     }

@@ -11,7 +11,7 @@ using e_commerce_api.Models;
 namespace e_commerce_api.Migrations
 {
     [DbContext(typeof(ContextDb))]
-    [Migration("20250216034642_InitialNightMarketDb")]
+    [Migration("20250216220558_InitialNightMarketDb")]
     partial class InitialNightMarketDb
     {
         /// <inheritdoc />

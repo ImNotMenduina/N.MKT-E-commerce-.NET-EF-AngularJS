@@ -1,7 +1,13 @@
 using e_commerce_api.Models;
 using Microsoft.EntityFrameworkCore;
-
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+if (args.Length > 0 && args[0].ToLower() == "seed")
+{
+    await Seeder.WeaponDbInitializer();
+    return;
+}
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -12,12 +18,6 @@ builder.Services.AddCors(options =>
             policy.WithOrigins("http://localhost:4200");
         });
 });
-
-if (args.Length > 0 && args[0].ToLower() == "seed")
-{
-    await Seeder.WeaponDbInitializer();
-    return;
-}
 
 // Add services to the container.
 

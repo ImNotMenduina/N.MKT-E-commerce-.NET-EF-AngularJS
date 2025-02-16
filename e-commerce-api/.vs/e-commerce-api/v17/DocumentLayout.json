@@ -3,34 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.Skins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.Weapons.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.__EFMigrationsHistory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\controllers\\weaponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\controllers\\weaponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\skin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -39,6 +35,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|c:\\users\\mynam\\desktop\\e-commerce-.net-angularjs\\e-commerce-api\\e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41B966D4-1313-42B6-8AB0-408F2DC72E68}|e-commerce-api\\e-commerce-api.csproj|solutionrelative:e-commerce-api\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,65 +56,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Weapons [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.Weapons.sql",
-              "ToolTip": "dbo.Weapons [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-16T04:11:22.321Z",
+              "DocumentIndex": 1,
+              "Title": "20250216220558_InitialNightMarketDb.cs",
+              "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs",
+              "RelativeDocumentMoniker": "e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs",
+              "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs",
+              "RelativeToolTip": "e-commerce-api\\Migrations\\20250216220558_InitialNightMarketDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:05:58.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250216034642_InitialNightMarketDb.cs",
-              "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs",
-              "RelativeDocumentMoniker": "e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs",
-              "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs",
-              "RelativeToolTip": "e-commerce-api\\Migrations\\20250216034642_InitialNightMarketDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T03:46:42.662Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.Skins [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.Skins.sql",
+              "ToolTip": "dbo.Skins [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-16T22:04:56.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Weapons [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.Weapons.sql",
+              "ToolTip": "dbo.Weapons [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-16T22:04:49.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.__EFMigrationsHistory [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NMDb/True/SqlTable/dbo.__EFMigrationsHistory.sql",
-              "ToolTip": "dbo.__EFMigrationsHistory [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-16T03:45:10.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Seeder.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Seeder.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Models\\Seeder.cs",
               "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Seeder.cs",
               "RelativeToolTip": "e-commerce-api\\Models\\Seeder.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T00:31:30.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "WeaponsController.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Controllers\\WeaponsController.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Controllers\\WeaponsController.cs",
               "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Controllers\\WeaponsController.cs",
               "RelativeToolTip": "e-commerce-api\\Controllers\\WeaponsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA5wCIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:19:53.275Z"
+              "WhenOpened": "2025-02-16T00:19:53.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\appsettings.json",
               "RelativeDocumentMoniker": "e-commerce-api\\appsettings.json",
@@ -122,24 +123,25 @@
               "RelativeToolTip": "e-commerce-api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T18:40:52.091Z"
+              "WhenOpened": "2025-02-15T18:40:52.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Program.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Program.cs",
               "ToolTip": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Program.cs",
               "RelativeToolTip": "e-commerce-api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T18:32:14.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ContextDb.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\ContextDb.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Models\\ContextDb.cs",
@@ -147,7 +149,8 @@
               "RelativeToolTip": "e-commerce-api\\Models\\ContextDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T18:27:15.411Z"
+              "WhenOpened": "2025-02-15T18:27:15.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,11 +162,12 @@
               "RelativeToolTip": "e-commerce-api\\Models\\Skin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T18:18:34.894Z"
+              "WhenOpened": "2025-02-15T18:18:34.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\mynam\\Desktop\\E-commerce-.NET-AngularJs\\e-commerce-api\\e-commerce-api\\Models\\Weapon.cs",
               "RelativeDocumentMoniker": "e-commerce-api\\Models\\Weapon.cs",
