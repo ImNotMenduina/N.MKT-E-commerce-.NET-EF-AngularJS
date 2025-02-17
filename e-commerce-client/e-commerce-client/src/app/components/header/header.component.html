@@ -13,7 +13,7 @@
         <a href="#" class="text-sm/6 font-semibold">Company</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <app-primary-button [label]="'Cart(' + this.cartService.cart().length + ')'"></app-primary-button>
+        <app-primary-button routerLink="/cart" [label]="'Cart(' + this.cartService.cart().length + ')'" class="bg-red-500 rounded-xl px-5 py-2"></app-primary-button>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
