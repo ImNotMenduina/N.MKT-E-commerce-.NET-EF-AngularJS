@@ -1,5 +1,8 @@
 using e_commerce_api.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
+using Stripe;
+
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 if (args.Length > 0 && args[0].ToLower() == "seed")
@@ -15,7 +18,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200");
+            policy.WithOrigins("http://localhost:4200", "http://localhost:4200/cart")
+            .WithHeaders(HeaderNames.ContentType, "x-custom-header");
         });
 });
 
@@ -25,6 +29,9 @@ builder.Services.AddControllers();
 
 //inject context
 builder.Services.AddDbContext<ContextDb>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DBConection")));
+
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
