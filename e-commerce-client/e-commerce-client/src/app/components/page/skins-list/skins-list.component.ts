@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeaponService } from '../../service/weapon.service';
-import { Skin } from '../../models/skin.models';
+import { WeaponService } from '../../../service/weapon.service';
+import { Skin } from '../../../models/skin.models';
 import { SkinCardComponent } from "../skin-card/skin-card.component";
 
 @Component({

@@ -1,24 +1,20 @@
 <div class="w-full">
-    <ul class="list-none">
         @for (item of cartService.cart(); track item.skinId) {
-            <li>
-                <div class="flex justify-between h-32 w-full p-5 bg-slate-300 rounded-xl mt-3">
-                    <img src="{{item.displayIcon}}" alt="" class="object-contain w-1/2">
-                    <div class="flex flex-col">
-                        <span>{{item.displayName}}</span>
-                        <span>$999.99</span>
-                    </div>
-                    <div class="flex flex-col w-20">
-                        <div class="mb-2">
-                            <app-primary-button label="Remove" class="bg-red-500 rounded-md w-full py-2" (btnClicked)="this.cartService.removeItem(item)"></app-primary-button>
-                        </div>
-                        <div class="">
-                            <app-primary-button label="Buy" class="bg-green-500 rounded-md w-full py-2"></app-primary-button>
-                        </div>
-                    </div>
+        <div class="card card-side bg-base-100 shadow-xl bg-neutral mb-4 overflow-hidden">
+            <div class="w-48 bg-base-content flex justify-center">
+                <img
+                src="{{item.displayIcon}}"
+                alt="Movie" 
+                class="h-full object-contain"
+                />
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">{{item.displayName}}</h2>
+                <p>Click the button to watch on Jetflix app.</p>
+                <div class="card-actions justify-end">
+                    <app-primary-button class="btn btn-error" label="Remove" (btnClicked)="cartService.removeItem(item)"></app-primary-button>
                 </div>
-            </li>    
+            </div>
+        </div>
         }
-    </ul>
 </div>
-<app-primary-button label="BUY" (btnClicked)="payNow()" class="bg-green-500 rounded-md w-full py-2"></app-primary-button>
